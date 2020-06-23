@@ -1,0 +1,88 @@
+body{
+  background-image:url('http://localhost:8084/Project/Icon/3.jpg');
+  background-size: 100% ;
+  padding:0;
+}
+
+#logo {
+    float: left;
+    margin-top: -10px;
+    margin-left: 0px;
+}
+
+img{
+    float:right;
+}
+
+#lo1{
+    position: absolute;
+    right:20px
+}
+#lo2{
+    position: absolute;
+    right:30px
+}
+a{
+    padding-right:20px;
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:3px;
+}
+a:hover{
+    color:red;
+}
+.nav{
+    position:absolute;
+    right:0px;
+    left:0px;
+    color: lightskyblue;
+    text-align: center;
+}
+.nav a {
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+    display: block;
+    transition: .3s background-color;
+}    
+.nav a:hover {
+    background-color:blueviolet;
+}   
+.nav li {
+    width: 140px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+}
+.nav li {
+    display: inline-block;
+    margin-right: -4px;
+}
+#search{
+    position:absolute;
+    bottom:5%;
+    right:8%;
+}
+#sbt{
+    position:absolute;
+    right:1%;
+    bottom:4%;
+}
+box{
+    box-sizing:100%;
+}
+
+#mm li{
+    display:block;
+    height:28px;
+}
+.log{
+    width:20px;
+    color:white;
+}
+.log:hover{
+    animation-name:rotate;
+    animation-duration: 1s;
+}
+

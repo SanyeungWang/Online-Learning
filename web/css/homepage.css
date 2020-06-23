@@ -1,0 +1,76 @@
+  html,body{background:lightskyblue;margin:0;}
+ body{border-top:6px solid #000;}
+ .content{
+   color:#777;
+   font:12px/1.4 "helvetica neue",arial,sans-serif;
+   width:620px;
+   margin:20px auto;}
+h1{
+     font-size:12px;
+     font-weight:normal;
+     color:purple;
+     margin:0;
+ }
+ p{margin:0 0 20px}
+ a {color:#22BCB9;text-decoration:none;}
+ .cred{margin-top:20px;font-size:11px;}
+ #galleria{height:400px;}
+ body {
+               margin: 0px;
+                background-image: url('a0.1.jfif');
+                background-repeat: no-repeat;
+                background-size: 110% 100%;
+      }   
+      
+        .nav li {
+                font-family:initial;
+                font-size: 1.8em;
+                line-height:120px;
+                height: 60px;
+                border-bottom: 1.5px solid #888;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            transition: .3s background-color;
+        }    
+        .nav a:hover {
+            background-color:darksalmon;
+        } 
+        .active{
+            background-color: #005f5f;
+        }  
+        .nav li {
+            width: 150px;
+            border-bottom: none;
+            height: 120px;
+            line-height: 90px;
+            font-size: 2.1em;
+        }
+        .nav li {
+            display: inline-block;
+            margin-right: -6px;
+        }
+        .nav ul {
+            list-style: none;
+            background-color: #444;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+         #intro{
+            border:3px rgb(163, 120, 27) solid;
+            border-radius:5%;
+            height: 525px;
+            width:615px;
+            margin-left: 105px;
+            margin-top:90px;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align:center ;
+            font-size: 30px;
+            text-indent: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         }
+        

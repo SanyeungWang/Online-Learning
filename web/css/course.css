@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(8.jpg);
+}   
+
+.nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 80px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}    
+.nav a:hover {
+    background-color: #005f5f;
+}  
+    .active{
+            background-color: #005f5f;
+        }   
+.nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 80px;
+    line-height: 70px;
+    font-size: 1.4em;
+}
+.nav li {
+    display: inline-block;
+    margin-right: -4px;
+}
+.nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.div2{
+    height: 500px;
+
+}
+footer{
+
+    height: 330px;
+    background-color: black;
+    
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+article{
+    height:2200px;
+    
+}
+#div1{
+    position: fixed;
+    margin-left: 20px;
+    margin-top: 0px;
+    background-color:rgb(51, 199, 51);
+    padding:10px;
+    border-radius: 5px;
+    color:white;
+}
+#div1:click{
+    height:80px;
+    width:100px;
+}
+#div2{
+    position: fixed;
+    margin-left: 20px;
+    margin-top: 150px;
+    background-color:rgb(51, 199, 51);
+    padding:10px;
+    border-radius: 5px;
+    width:120px;
+    height:30px;
+}
+#div3{
+    position: fixed;
+    margin-left: 20px;
+    margin-top: 250px;
+    background-color:rgb(51, 199, 51);
+    width:150px;
+    padding:10px;
+    border-radius: 5px;
+    width:120px;
+    height:30px;
+    color:#fff;
+}
+#pro1{
+    position: absolute;
+    background-image:url('s5.jpg');
+    height:270px;
+    width:300px;
+    margin-left:250px;
+    margin-top: 30px;
+    border:rgb(89, 220, 230) 3px solid;
+    border-radius: 8px;
+}
+#pro2{
+    position: absolute;
+    background-image:url('s5.jpg');
+    height:270px;
+    width:300px;
+    margin-left:560px;
+    margin-top: 30px;
+    border:rgb(89, 220, 230) 3px solid;
+    border-radius: 8px;
+}
+#pro3{
+    position:absolute;
+    background-image:url('s5.jpg');
+    height:270px;
+    width:300px;
+    margin-left:870px;
+    margin-top: 30px;
+    border:rgb(89, 220, 230) 3px solid;
+    border-radius: 8px;
+}
+#pro4{
+    position: absolute;
+    background-image:url('s5.jpg');
+    height:225px;
+    width:310px;
+    margin-left:250px;
+    margin-top: 35px;
+    border:rgb(89, 220, 230) 3px solid;
+    border-radius: 8px;
+    display: inline-block;
+}
+#pro5{
+    position: absolute;
+    background-image:url('s5.jpg');
+    height:225px;
+    width:320px;
+    margin-left:570px;
+    margin-top: 35px;  
+    border:rgb(89, 220, 230) 3px solid;
+    border-radius: 8px;              
+}
+#pro6{
+    position: absolute;
+    background-image:url('s5.jpg');
+    height:225px;
+    width:300px;
+    margin-left:900px;
+    margin-top: 35px;
+    border:rgb(89, 220, 230) 3px solid;
+    border-radius: 8px;
+}
+#exp1{
+    width:865px;
+    height:150px;
+    margin-left: 10px;
+    padding:10px;
+    border-radius: 5px;
+}
+#exp2{
+    position: absolute;
+    width:400px;
+    height:150px;
+    margin-left: 10px;
+    margin-top: -70px;
+    border-radius: 5px;
+}
+#exp3{
+    position: absolute;
+    width:450px;
+    height:150px;
+    margin-left: 500px;
+    margin-top: -60px;
+    border-radius: 5px;
+}
+#exp4{
+    position: absolute;
+    width:865px;
+    height:150px;
+    margin-left: 280px;
+    margin-top:10px;
+    padding:10px;
+    border-radius: 5px;
+}
+#exp5{
+    position: absolute;
+    width:865px;
+    height:150px;
+    margin-left: 280px;
+    margin-top:160px;
+    padding:10px;
+    border-radius: 5px;
+}
+#exp6{
+    position: absolute;
+    width:865px;
+    height:150px;
+    margin-left: 280px;
+    margin-top:350px; 
+    padding:10px;
+    border-radius: 5px;
+   
+}
+#img24:hover{
+                transform: scale(1.1);
+                transition-property: all;
+                transition-duration: 100ms;
+            }

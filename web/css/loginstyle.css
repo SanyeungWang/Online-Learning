@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url('http://localhost:8084/Project/Icon/login.jpg');
+    background-size:cover;
+    padding:0;
+}
+#logo {
+    float: left;
+    margin-left: 0px;
+}
+
+#wrap {
+    opacity:0.8;
+	height: 250px;
+	width: 100;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+}
+#head {
+	height: 90px;
+	width: 100;
+	background-color: #000000;
+	text-align: center;
+	position: relative;
+}
+
+#wrap .logGet {
+	height: 408px;
+	width: 368px;  
+	position: absolute;
+	background-color: #FFFFFF;
+	top: 20%;
+	right: 15%;
+}
+
+.logGet .logD.logDtip .p1 {
+	display: inline-block;
+	font-size: 28px;
+	margin-top: 30px;
+	width: 86%;
+}
+#wrap .logGet .logD.logDtip {
+	width: 86%;
+	border-bottom: 1px solid #000000;
+	margin-bottom: 60px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.logGet .lgD img {
+	position: absolute;
+	top: 12px;
+	left: 8px;
+}
+.logGet .lgD input {
+	width: 100%;
+	height: 42px;
+	text-indent: 2.5rem;
+}
+#wrap .logGet .lgD {
+	width: 86%;
+	position: relative;
+	margin-bottom: 30px;
+	margin-top: -10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#wrap .logGet .logC {
+	
+}
+ 
+#wrap.logGet.logR{
+       text-decoration: none;
+}
+
+.logR a button {
+	margin-left: 100px;
+}
+ 
+.logC a button {
+	
+}
+
+.title {
+	font-family:Arial;
+	color: #FFFFFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);  /* 使用css3的transform来实现 */
+	font-size: 36px;
+	height: 40px;
+	width: 30%;
+}
+#div2{
+    background-color:gainsboro;
+    opacity:0.7;
+    position: absolute;
+    right:0px;
+    left:0px;
+    bottom:-60px;
+    width:100%;
+}
+#brand{
+    font-family:vendana;
+}

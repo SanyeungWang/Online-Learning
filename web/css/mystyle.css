@@ -1,0 +1,79 @@
+/*----Written by Nitesh----*/
+#mainContent{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    opacity: 0.7;
+}
+#loginName{
+    float: right;
+    color: blue;
+}
+#head {
+    background-color:slategray;
+    height: 65px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#logo {
+    float: left;
+    margin-left: 30px;
+}
+
+.title1 {
+    font-size: 35px;
+    font-family:Wide Latin;
+    line-height: 60px;
+    margin-left: 50px;
+    color:cornflowerblue;
+}
+.title2 {
+    font-size: 35px;
+    font-family: Wide Latin;
+    line-height: 60px;
+    margin-left: 30px;
+    color:cornflowerblue;
+}
+.RBtn {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: black;
+    outline: none;
+    margin: 15px;
+    border-radius: 7px;
+    width: 240px;
+    text-align: center;
+    background-color: white;
+}
+.RegisterBtn {
+    width: 120px;
+    background:fuchsia;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#register
+{
+    color: white;
+}
+#register:link {
+    text-decoration: none;
+}
+
+#register:visited {
+    text-decoration: none;
+}
+
+#register:hover {
+    text-decoration: none;
+}
+
+#register:active {
+    text-decoration: none;
+}

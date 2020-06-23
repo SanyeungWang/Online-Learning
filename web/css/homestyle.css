@@ -1,0 +1,260 @@
+body{
+    padding:0;
+    background-image: url('http://localhost:8084/Project/Icon/1.jpg');
+    background-size: cover;
+    height:1800px;
+}
+a{
+    text-decoration:none;
+}
+.dta h2{
+    border-radius:1px;
+    color:#497A54;
+    font-family:cursive;
+}
+.dta :hover{
+    transition:0.4s;
+    color:rgb(138, 138, 167);
+}
+#fm{
+    padding:5%;
+    position:absolute;
+    top:13%;
+    left:25%;
+    right:0%;  
+    /*border:solid white 2px;*/
+}
+#background1{
+    position:absolute;
+    left:27%;
+    right:1%;
+    top:14.5%;
+    border-radius:6px;
+    border: solid red .5px;
+    height:85%;
+}
+#dir{
+    position:absolute;
+    top:14%;
+    left:0%;
+    width:26%;
+}
+p,a{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(75, 64, 64);
+}
+.atable td{
+    width:22%;
+    text-align:center;
+}
+#fm img:hover{
+    border-radius:7px;
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+.money{
+    color:rgb(250, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+.bp{
+    color:rgb(38, 53, 49);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#nav1{
+    position:absolute;
+    top:2%;
+    left:2%;
+    width:23%;
+    border: dashed green 2px;
+}
+#nav2{
+    position:absolute;
+    top:32%;
+    left:2%;
+    width:27%;
+}
+#nav3{
+    position:absolute;
+    top:75%;
+    left:2%;
+    width:22%;
+    border:dotted #497A54 1px;
+}
+#na1{
+    background-color:black;
+    height:25%;
+    color:wheat;
+    padding:3px;
+    text-align:center;
+    font-family:fantasy;
+}
+.d1{
+    background-color:#497A54;
+    height:35%;
+    color:white;
+    padding:3px;
+    text-align:center;
+}
+#d2{
+    color:#497A54;
+    margin-left:45px;
+}
+#d3{
+    font-size:20px;
+    color:rgb(46, 45, 45);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height:25px;
+    font-weight:900;
+    margin-left:6px;
+}
+#d4{
+    text-align:center;
+}
+#d5{
+    color:rgb(86, 85, 87);
+    text-indent:35px;
+    font-weight:900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height:23px;
+    margin:9px;
+}
+ul li{
+    padding-top:5px;
+
+}
+ul{
+    list-style-type: none;
+    padding-top:0px;
+}
+#nav1 li:hover{
+    color:rgb(105, 73, 103);
+    font-weight:bolder;
+}
+#ad{
+    position:absolute;
+    top:62%;
+    left:1%;
+}
+#p2{
+    position: absolute;
+    margin-left:10px;
+}
+#p3{
+    position: absolute;
+    margin-left:140px;
+}
+#click{
+    position: absolute;
+    margin-top:130px;
+    margin-left:200px;
+}
+h3{
+    position: absolute;
+    margin-left: 220px;
+    margin-top:-170px;
+    width:200px;
+}
+#p1{
+    position: absolute;
+    margin-left: 300px;
+    margin-top:-60px;
+}
+#div1{
+    position: absolute;
+    width:400px;
+    height:370px;
+    border:sienna solid 1px;
+    border-radius: 5px;
+    margin-left:-50px;
+    margin-top: 250px;
+    padding:20px;
+}
+#div2{
+    position: absolute;
+    width:400px;
+    height:370px;
+    border:sienna solid 1px;
+    border-radius: 5px;
+    margin-left:430px;
+    margin-top: 250px;
+    padding:20px;
+}
+#div3{
+    position: absolute;
+    width:400px;
+    height:370px;
+    border:sienna solid 1px;
+    border-radius: 5px;
+    margin-left:-50px;
+    margin-top: 700px;
+    padding:20px;
+}
+#div4{
+    position: absolute;
+    width:400px;
+    height:370px;
+    border:sienna solid 1px;
+    border-radius: 5px;
+    margin-left:430px;
+    margin-top: 700px;
+    padding:20px;
+}
+/**********************************************************   侧边栏   ***********************************************************/
+a:link,
+a:hover,
+a:visited,
+a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-holder {
+    position: fixed;
+    width: 0px;
+    right: 0px;
+    margin-top: 400px;
+}
+
+.card-wrapper {
+    display: inline-block;
+    float: right;
+    clear: both;
+}
+
+.card {
+    position: relative;
+    right: -60px;
+    padding: 7px 10px 7px 7px;
+    margin-top: 15px;
+    box-shadow: 10px 0 8px -8px rgba(0, 0, 0, 0.5);
+    background: #fff;
+    transition: all 0.1s ease-in-out 0.1s;
+    border-radius: 5px;
+}
+
+.card:hover {
+    position:relative;
+    margin-left: -100px;
+    box-shadow: 0 -8px 8px -8px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+.bg-01 {
+    background:black;
+}
+
+#search{
+    position:absolute;
+    bottom:5%;
+    right:8%;
+}
+#sbt{
+    position:absolute;
+    right:1%;
+    bottom:4%;
+}
+box{
+    box-sizing:100%;
+}
+
